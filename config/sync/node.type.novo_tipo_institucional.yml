@@ -1,0 +1,17 @@
+uuid: 2e36b027-27b3-4cc4-bbcb-967c18dfd2eb
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Novo tipo institucional'
+type: novo_tipo_institucional
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

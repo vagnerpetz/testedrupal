@@ -1,0 +1,32 @@
+uuid: dc83c3b3-776c-4e5c-ae5e-90f620089203
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.links
+    - field.field.node.novo_tipo_institucional.field_filho
+    - field.field.node.novo_tipo_institucional.field_institucional
+    - node.type.novo_tipo_institucional
+  module:
+    - user
+id: node.novo_tipo_institucional.links
+targetEntityType: node
+bundle: novo_tipo_institucional
+mode: links
+content:
+  field_filho:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_institucional: true
+  langcode: true

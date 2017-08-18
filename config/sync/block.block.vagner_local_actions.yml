@@ -1,0 +1,20 @@
+uuid: 04e6ef70-0337-4f3c-9827-b1be640fb814
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - vagner
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: vagner_local_actions
+theme: vagner
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

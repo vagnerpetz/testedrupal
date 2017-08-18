@@ -1,0 +1,22 @@
+uuid: 74c846dd-68f7-4930-ad08-a151b8f51137
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vagner
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: vagner_content
+theme: vagner
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  provider: system
+  label_display: '0'
+visibility: {  }

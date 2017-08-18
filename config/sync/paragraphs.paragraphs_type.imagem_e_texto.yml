@@ -1,0 +1,7 @@
+uuid: ba9be019-219e-4811-8961-192a59836189
+langcode: pt-br
+status: true
+dependencies: {  }
+id: imagem_e_texto
+label: 'Imagem e texto'
+behavior_plugins: {  }

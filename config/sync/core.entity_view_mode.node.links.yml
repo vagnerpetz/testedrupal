@@ -1,0 +1,10 @@
+uuid: 6b4e10bc-2eae-4826-aa84-a3f61f7d6d26
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.links
+label: Links
+targetEntityType: node
+cache: true

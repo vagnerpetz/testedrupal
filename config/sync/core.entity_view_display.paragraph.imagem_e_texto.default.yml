@@ -1,0 +1,42 @@
+uuid: f76d7459-35cc-4c4a-955f-4818154ea143
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.imagem_e_texto.field_imagem
+    - field.field.paragraph.imagem_e_texto.field_texto
+    - field.field.paragraph.imagem_e_texto.field_titulo_do_item
+    - paragraphs.paragraphs_type.imagem_e_texto
+  module:
+    - image
+    - text
+id: paragraph.imagem_e_texto.default
+targetEntityType: paragraph
+bundle: imagem_e_texto
+mode: default
+content:
+  field_imagem:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_texto:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_do_item:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 08a258d9-7bb4-4a5b-8da2-5fdcf8baa534
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_institucional
+    - node.type.novo_tipo_institucional
+    - paragraphs.paragraphs_type.imagem_e_texto
+  module:
+    - entity_reference_revisions
+id: node.novo_tipo_institucional.field_institucional
+field_name: field_institucional
+entity_type: node
+bundle: novo_tipo_institucional
+label: Institucional
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      imagem_e_texto: imagem_e_texto
+    target_bundles_drag_drop:
+      imagem_e_texto:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

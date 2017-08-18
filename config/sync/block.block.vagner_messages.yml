@@ -1,0 +1,22 @@
+uuid: d2721b2a-9e7b-43e1-ad34-992241d9c111
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vagner
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: vagner_messages
+theme: vagner
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  provider: system
+  label_display: '0'
+visibility: {  }

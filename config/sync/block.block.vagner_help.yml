@@ -1,0 +1,22 @@
+uuid: 7e7eeed5-7725-45d6-9973-3da3c9e92550
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vagner
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: vagner_help
+theme: vagner
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

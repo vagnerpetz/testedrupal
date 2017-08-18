@@ -1,0 +1,19 @@
+uuid: ef0f0baa-d085-4452-a8de-746b4c6da7fe
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.novo_tipo_institucional
+  module:
+    - user
+id: node.novo_tipo_institucional.teaser
+targetEntityType: node
+bundle: novo_tipo_institucional
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,28 @@
+uuid: 5d1f3f85-c87e-4cbf-96af-9ac7aff0b1dc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_do_texto
+    - node.type.conteudo_institucional
+    - taxonomy.vocabulary.conteudo
+id: node.conteudo_institucional.field_tipo_do_texto
+field_name: field_tipo_do_texto
+entity_type: node
+bundle: conteudo_institucional
+label: 'Tipo do texto'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      conteudo: conteudo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

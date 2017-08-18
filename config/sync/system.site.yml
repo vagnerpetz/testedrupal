@@ -1,0 +1,14 @@
+uuid: 2afb94c4-d052-4867-9e7b-7081745857e5
+name: Drupal
+mail: vagnerpetz@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: pt-br
+default_langcode: pt-br
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

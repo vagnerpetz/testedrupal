@@ -1,0 +1,22 @@
+uuid: 0eee31ca-055c-4cd1-8a11-f482a815492f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.novo_tipo_institucional
+id: node.novo_tipo_institucional.promote
+field_name: promote
+entity_type: node
+bundle: novo_tipo_institucional
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

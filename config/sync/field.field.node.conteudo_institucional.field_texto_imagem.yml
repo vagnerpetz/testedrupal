@@ -1,0 +1,30 @@
+uuid: 2b42d5fc-84df-4adb-86e9-9b9aab2d6674
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_imagem
+    - node.type.conteudo_institucional
+    - paragraphs.paragraphs_type.imagem_e_texto
+  module:
+    - entity_reference_revisions
+id: node.conteudo_institucional.field_texto_imagem
+field_name: field_texto_imagem
+entity_type: node
+bundle: conteudo_institucional
+label: 'Texto e/ou imagem'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      imagem_e_texto: imagem_e_texto
+    target_bundles_drag_drop:
+      imagem_e_texto:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

@@ -1,0 +1,19 @@
+uuid: 6980d5e6-9917-4280-9657-e2168649f8dd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.conteudo_institucional
+  module:
+    - user
+id: node.conteudo_institucional.teaser
+targetEntityType: node
+bundle: conteudo_institucional
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

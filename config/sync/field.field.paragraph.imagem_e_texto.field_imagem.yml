@@ -1,0 +1,38 @@
+uuid: dba96333-c75a-4682-9a6d-2b05413336b2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagem
+    - paragraphs.paragraphs_type.imagem_e_texto
+  module:
+    - image
+id: paragraph.imagem_e_texto.field_imagem
+field_name: field_imagem
+entity_type: paragraph
+bundle: imagem_e_texto
+label: Imagem
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

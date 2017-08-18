@@ -1,0 +1,25 @@
+uuid: c10f8f7a-5f4d-4ce6-91cf-1ec13fea2fe9
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vagner
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: vagner_branding
+theme: vagner
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

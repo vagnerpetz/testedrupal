@@ -1,0 +1,27 @@
+uuid: 08d7f999-bd2b-4b00-a6cf-2fe19576fc7c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pai
+    - node.type.novo_tipo_institucional
+id: node.novo_tipo_institucional.field_pai
+field_name: field_pai
+entity_type: node
+bundle: novo_tipo_institucional
+label: Pai
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      novo_tipo_institucional: novo_tipo_institucional
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

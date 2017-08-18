@@ -1,0 +1,13 @@
+uuid: 2a3c68d6-3eb3-4d3b-9de0-967f9517624a
+langcode: pt-br
+status: true
+dependencies: {  }
+id: pai_filho
+label: 'Pai Filho'
+enabled: true
+first_field: field_pai
+second_field: field_filho
+bundles:
+  node:
+    - '*'
+    - novo_tipo_institucional

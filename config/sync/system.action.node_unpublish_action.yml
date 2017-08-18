@@ -1,0 +1,13 @@
+uuid: 8a4c0231-857a-4514-ab5f-1bc7cbb18819
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: gGQXiSspwGl0lyOS6w_HCPpvGAPDciqDNLFwWOydVtI
+id: node_unpublish_action
+label: 'Despublicar conteúdo'
+type: node
+plugin: node_unpublish_action
+configuration: {  }
